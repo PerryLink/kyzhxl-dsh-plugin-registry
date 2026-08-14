@@ -1,0 +1,39 @@
+{
+  "$schema": "./schema.json",
+  "version": 1,
+  "description": "DeepSeek Harness 社区插件注册表。通过向本仓库提交 PR 添加你的插件（ComfyUI Manager 风格）。",
+  "plugins": [
+    {
+      "id": "dsh-skill-marketplace",
+      "title": "Skill Marketplace",
+      "author": "Community",
+      "description": "技能市场：浏览、下载、管理社区共享的 dsh 技能（SKILL.md）。",
+      "source": "git+https://github.com/KYZHXL/dsh-skill-marketplace.git",
+      "reference": "https://github.com/KYZHXL/dsh-skill-marketplace"
+    },
+    {
+      "id": "dsh-web-search-openai",
+      "title": "OpenAI Web Search",
+      "author": "Community",
+      "description": "通过 OpenAI 兼容端点提供 Web 搜索工具。",
+      "source": "@dsh-community/dsh-web-search-openai",
+      "reference": "https://github.com/dsh-community/dsh-web-search-openai"
+    },
+    {
+      "id": "dsh-terminal-tmux",
+      "title": "Tmux Terminal",
+      "author": "Community",
+      "description": "基于 tmux 的持久终端会话，支持多窗口。",
+      "source": "git+https://github.com/dsh-community/dsh-terminal-tmux.git",
+      "reference": "https://github.com/dsh-community/dsh-terminal-tmux"
+    },
+    {
+      "id": "dsh-code-review",
+      "title": "Code Review Assistant",
+      "author": "Community",
+      "description": "自动代码审查工具，集成到 agent 会话。",
+      "source": "@dsh-community/dsh-code-review",
+      "reference": "https://github.com/dsh-community/dsh-code-review"
+    }
+  ]
+}
