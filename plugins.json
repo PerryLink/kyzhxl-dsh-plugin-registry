@@ -34,6 +34,70 @@
       "description": "自动代码审查工具，集成到 agent 会话。",
       "source": "@dsh-community/dsh-code-review",
       "reference": "https://github.com/dsh-community/dsh-code-review"
+    },
+    {
+      "id": "dsh-auto-review",
+      "title": "Auto Review",
+      "author": "PerryLink",
+      "description": "审批链上的第二模型自动审查：只读审查子代理返回带理由与风险等级的结构化 allow/deny 裁决，默认失败即拒绝，全过程可在会话日志中审计。",
+      "source": "dsh-auto-review",
+      "reference": "https://github.com/PerryLink/dsh-auto-review"
+    },
+    {
+      "id": "dsh-cert-mcp",
+      "title": "Certification MCP",
+      "author": "PerryLink",
+      "description": "只读 MCP 服务器，把 DSH 插件认证注册表开放给任何 MCP 客户端：查询认证等级、快照与五维证据。",
+      "source": "dsh-cert-mcp",
+      "reference": "https://github.com/PerryLink/dsh-cert-mcp"
+    },
+    {
+      "id": "dsh-github",
+      "title": "GitHub Integration",
+      "author": "PerryLink",
+      "description": "GitHub 集成：PR / Issue / 仓库 / 文件工具与审查机器人（幂等行内评论 + 状态门禁），写操作全部人工审批。",
+      "source": "@perrylink/dsh-github",
+      "reference": "https://github.com/PerryLink/dsh-github"
+    },
+    {
+      "id": "dsh-library",
+      "title": "Local Library",
+      "author": "PerryLink",
+      "description": "工作区本地文档知识库：语义与关键词混合检索、多样性重排、带引用注入与完整性校验，索引为本地 SQLite。",
+      "source": "dsh-library",
+      "reference": "https://github.com/PerryLink/dsh-library"
+    },
+    {
+      "id": "dsh-mcp-panel",
+      "title": "MCP Panel",
+      "author": "PerryLink",
+      "description": "官方 DSH MCP 客户端的管理控制台：/mcp 健康诊断、设置页审批门禁的服务器增删改与自动备份、工具试调台。",
+      "source": "dsh-mcp-panel",
+      "reference": "https://github.com/PerryLink/dsh-mcp-panel"
+    },
+    {
+      "id": "dsh-plugin-doctor",
+      "title": "Plugin Doctor",
+      "author": "PerryLink",
+      "description": "DSH 插件零依赖检测器：包结构检查、cordis 契约扫描、无密钥无头沙箱冒烟与生态收录校验。",
+      "source": "@perrylink/dsh-plugin-doctor",
+      "reference": "https://github.com/PerryLink/dsh-plugin-doctor"
+    },
+    {
+      "id": "dsh-plugin-upgrade",
+      "title": "Plugin Upgrade",
+      "author": "PerryLink",
+      "description": "插件作者升级技能：一份走廊索引按调用方声明的 DSH 区间路由到对应已封版升级卡片，附零依赖接缝扫描器。",
+      "source": "dsh-plugin-upgrade",
+      "reference": "https://github.com/PerryLink/dsh-plugin-upgrade"
+    },
+    {
+      "id": "dsh-ticktick",
+      "title": "TickTick Bridge",
+      "author": "PerryLink",
+      "description": "滴答清单任务桥：会话头部任务面板（筛选 / 搜索 / 拖拽排序）、十一个代理工具与设置卡片，走官方 TickTick MCP 端点。",
+      "source": "@perrylink/dsh-ticktick",
+      "reference": "https://github.com/PerryLink/dsh-ticktick"
     }
   ]
 }
