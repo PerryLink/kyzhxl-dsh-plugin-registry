@@ -98,6 +98,14 @@
       "description": "滴答清单任务桥：会话头部任务面板（筛选 / 搜索 / 拖拽排序）、十一个代理工具与设置卡片，走官方 TickTick MCP 端点。",
       "source": "@perrylink/dsh-ticktick",
       "reference": "https://github.com/PerryLink/dsh-ticktick"
+    },
+    {
+      "id": "dsh-laya",
+      "title": "Laya Decisions",
+      "author": "PerryLink",
+      "description": "Laya 有类型决策（noul 是/否、choice、score）作为 DSH 的一等 Cordis 服务（ctx.laya）与两个模型可见工具（laya_ask / laya_plan）；插件自身不安装也不下载任何东西，由你自行启动的 laya-mcp 边车提供模型，边车未运行时会明确报出，而不是在首次工具调用时隐晦失败。",
+      "source": "dsh-laya",
+      "reference": "https://github.com/PerryLink/dsh-laya"
     }
   ]
 }
